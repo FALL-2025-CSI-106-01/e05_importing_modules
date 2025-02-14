@@ -20,21 +20,21 @@ def large_half (n):
 
 # Step 2: (Uncomment the following code until "Step2-END")
 # --------------------------------------------------
-def main():
-    print("Inside my_module.py")
-    total = 25
-    large = large_half( total )
-    small = total - large
-    print(f"The large half of {total} is {large} and the small half is {small}")
-
-#main()
+# def main():
+#     print("Inside my_module.py")
+#     total = 25
+#     large = large_half( total )
+#     small = total - large
+#     print(f"The large half of {total} is {large} and the small half is {small}")
+#
+# main()
 # Step2-END ----------------------------------------
 
 
 # Step 3:
 # --------------------------------------------------
 #   1. comment out the line that has the call to main() above
-#   2. uncomment the following two lines:
-print(__name__)
-if __name__ == "__main__":
-    main()
+#   2. uncomment the following three lines:
+# print(__name__)
+# if __name__ == "__main__":
+#     main()
